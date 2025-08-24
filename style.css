@@ -47,8 +47,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -90,6 +90,7 @@ header {
     margin-top: 1rem;
     border-radius: 5px;
     transition: 0.5s;
+
 }
 
 .btn:hover {
@@ -98,26 +99,36 @@ header {
 
 .home-container {
     background: url("/img/direita.lateral-circuit-boards-vetor\ -\ Copia.jpg");
-    height: 100vh;
     background-position: center;
     background-size: cover;
 
 }
 
+.home-container section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .content {
     max-width: 60rem;
-    line-height: 3;
+    line-height: 4;
+    margin-left: 50px;
 }
 
 .content h3 {
     color: var(--white);
-    font-size: 5rem;
+    font-size: 4rem;
+
 }
 
 .content h4 {
     color: var(--white);
+    font-size: 2rem;
 }
 
 .content p {
     color: var(--white);
+    font-size: 15px;
+    line-height: 1.2;
 }
