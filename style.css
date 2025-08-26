@@ -134,6 +134,26 @@ header {
     line-height: 1.2;
 }
 
+.parlax {
+    background-image: -moz-element(url);
+}
+
+.proj-title {
+    border: solid 2px green;
+    height: auto;
+    color: var(--white);
+    text-align: center;
+    line-height: 2;
+}
+
+.proj-title h4 {
+    font-size: 40px;
+}
+
+.proj-title p {
+    font-size: 17px;
+}
+
 .proj-cards {
     /* border: solid red 2px; */
     max-width: 100%;
@@ -191,6 +211,8 @@ header {
     height: 0;
     transition: 0.5s;
     font-size: 17px;
+
+
 }
 
 .cards:hover .card-txt {
@@ -198,22 +220,26 @@ header {
     display: block;
     max-width: 100%;
     height: 70%;
-    line-height: 2;
     margin-top: -76%;
     position: relative;
 }
 
 .card-txt h5 {
     color: var(--white);
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 2.5;
 }
 
 .card-txt p {
     color: var(--white);
+    font-size: 17px;
+    line-height: 1.5;
 }
 
 .card-txt a {
-    padding: 5px;
+    padding: 10px;
     background-color: var(--turquesa);
     color: var(--white);
+    border-radius: 10px;
+    line-height: 7;
 }
