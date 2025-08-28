@@ -22,6 +22,7 @@ body {
     background-color: var(--black);
 }
 
+
 section {
     /* border: solid red; */
     padding: 3rem 2rem;
@@ -98,22 +99,27 @@ header {
 }
 
 .home-container section {
-    border: solid 2px red;
+    /* border: solid 2px red; */
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
-.content img {
-    max-width: 25rem;
-    border-radius: 2000px;
+.content {
+    /* border: solid 2px red; */
+    max-width: 40rem;
+    margin-left: 4rem;
 }
 
-.content {
-    border: solid 2px red;
-    max-width: 40rem;
-    margin-left: 50px;
+.content-img {
+    text-align: center;
+    /* border: solid 2px red; */
+}
+
+.content-img img {
+    max-width: 25rem;
+    border-radius: 200px;
 }
 
 .content h1 {
@@ -145,10 +151,8 @@ header {
     /* border: solid red; */
 }
 
-section.paralax:nth-last-of-type(1) {
+section.paralax:nth-last-of-type(2) {
     background-image: url(/img/gradient-background-transparent-free-png.webp);
-
-    /* border: solid rgb(121, 5, 153); */
 }
 
 .proj-title {
@@ -236,4 +240,12 @@ section.paralax:nth-last-of-type(1) {
     color: var(--white);
     font-size: 17px;
     line-height: 1.5;
+}
+
+.about-txt {
+    color: var(--white);
+}
+
+.about-img img {
+    max-width: 300px;
 }
