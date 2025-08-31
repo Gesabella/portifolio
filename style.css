@@ -120,6 +120,7 @@ header {
 .content-img img {
     max-width: 25rem;
     border-radius: 200px;
+    border: solid 4px var(--turquesa);
 }
 
 .content h1 {
@@ -255,7 +256,7 @@ section.paralax:nth-last-of-type(3) {
 }
 
 .about {
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .about-box {
@@ -268,7 +269,7 @@ section.paralax:nth-last-of-type(3) {
 }
 
 .about-txt {
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .about-txt h3 {
@@ -276,9 +277,12 @@ section.paralax:nth-last-of-type(3) {
 }
 
 .about-txt p {
+    margin-top: 15px;
     font-size: 17px;
 }
 
-.about-img {
-    border: solid 2px red;
+.about-img video {
+    /* border: solid 2px red; */
+    max-width: 40rem;
+
 }
