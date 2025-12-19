@@ -307,7 +307,7 @@ section.paralax:nth-last-of-type(3) {
 }
 
 .about-txt {
-    border: solid 2px red;
+    /* border: solid 2px red; */
 
 }
 
@@ -321,7 +321,7 @@ section.paralax:nth-last-of-type(3) {
 }
 
 .about-img video {
-    border: solid 2px red;
+    /* border: solid 2px red; */
     max-width: 100%;
 
 }
