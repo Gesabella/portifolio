@@ -93,7 +93,7 @@ header {
 }
 
 .home-container {
-    background: url("/img/direita.lateral-circuit-boards-vetor\ -\ Copia.jpg");
+    background: url("/assets/img/wallpaper.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -196,11 +196,11 @@ header {
 }
 
 section.paralax:nth-last-of-type(2) {
-    background-image: url(/img/gradient-background-transparent-free-png.webp);
+    background-image: url(/assets/img/gradient-png.webp);
 }
 
 section.paralax:nth-last-of-type(3) {
-    background-image: url(/img/gradient-background-transparent-free-png.webp);
+    background-image: url(/assets/img/gradient-png.webp);
 }
 
 .proj-title {
