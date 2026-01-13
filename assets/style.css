@@ -146,15 +146,16 @@ header {
 }
 
 .tecnologies-container {
-    /* border: solid 2px rgb(254, 3, 3); */
+    /* border: solid 2px rgb(32, 3, 254); */
     max-width: 600px;
     margin-inline: auto;
     display: flex;
     gap: 10px;
-    padding: 15px;
+    padding: 16px;
     width: max-content;
     overflow: hidden;
     /* background: #43a6cd68; */
+    mask: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
 }
 
 .tecnologies-container p {
@@ -338,7 +339,8 @@ footer {
 footer .social {
     /* border: solid 2px red; */
     display: grid;
-    grid-template-columns: 5vw 5vw 5vw 5vw 5vw;
+    grid-template-columns: 3vw 3vw 3vw;
+    /*5vw 5vw 5vw 5vw 5vw; */
     padding: 50px 100px;
     gap: 10vw;
     justify-content: center;
@@ -381,6 +383,7 @@ footer .social div:hover a {
     transition: all 0.5s;
 }
 
+/* --------------------------------------------------------------------- */
 @media screen and (max-width:1050px) {
     body {
         .home-container section {
@@ -389,6 +392,8 @@ footer .social div:hover a {
             margin-top: 80px;
 
         }
+
+        .home {}
 
         section .content {
             background-color: #0000007e;
