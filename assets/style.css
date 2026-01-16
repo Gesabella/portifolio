@@ -93,7 +93,7 @@ header {
 }
 
 .home-container {
-    background: url("/assets/img/wallpaper.jpg");
+    /* background: url("/assets/img/wallpaper.jpg"); */
     background-position: center;
     background-size: cover;
 }
@@ -196,13 +196,13 @@ header {
     /* border: solid red; */
 }
 
-section.paralax:nth-last-of-type(2) {
+/* section.paralax:nth-last-of-type(2) {
     background-image: url(/assets/img/gradient-png.webp);
 }
 
 section.paralax:nth-last-of-type(3) {
     background-image: url(/assets/img/gradient-png.webp);
-}
+} */
 
 .proj-title {
     /* border: solid 2px green; */
@@ -333,7 +333,7 @@ footer {
 
 
 .footer-txt p {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 footer .social {
@@ -343,7 +343,7 @@ footer .social {
     /*5vw 5vw 5vw 5vw 5vw; */
     padding: 50px 100px;
     gap: 10vw;
-    justify-content: center;
+    justify-content: baseline;
 }
 
 footer div {
@@ -353,13 +353,8 @@ footer div {
     justify-content: space-around;
     gap: 10px;
     justify-items: center;
-    transition: 0.5s;
+    transition: all 0.5s;
 
-}
-
-footer .social div:hover img {
-    /* border: solid 2px red; */
-    height: 109%;
 }
 
 footer .social div:hover a {
@@ -368,13 +363,14 @@ footer .social div:hover a {
     font-size: 17px;
 }
 
-.social img {
+/* .social img {
     /* border: solid 2px red; */
-    text-align: center;
-    height: 1fr;
-    transition: 0.5s;
+/* text-align: center;
+height: 1fr;
+transition: 0.5s;
 }
 
+*/
 .social a {
     /* border: solid 2px red; */
     font-size: larger;
