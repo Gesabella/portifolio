@@ -22,13 +22,13 @@ Seja Bem-vindo!
 ---
 
 ## 🌟 Projetos em Destaque
-[Projeto 1: Página de consultório dental](https://github.com/Gesabella/clinica) – Página simples com HTML, CSS e JavaScript.
+[Projeto 1: Página de Clinica Dental](https://github.com/Gesabella/clinica) – Página simples com HTML, CSS e JavaScript.
 
-[Projeto 2: Página de venda](https://github.com/Gesabella/pag-venda-livro-test) – LandingPage inicial, feita com uso de HTML e CSS.
+[Projeto 2: Página de Venda](https://github.com/Gesabella/pag-venda-livro-test) – LandingPage inicial, feita com uso de HTML e CSS.
 
 [Projeto 3: Página de Agência](https://github.com/Gesabella/agencia) – (EM ANDAMENTO) Pagina de agencia de marketing, com menu navegável e formulário com HTML, CSS e JavaScript.
 
-[Projeto 3: Página de curso de Japonês](link) – (EM BREVE) Magina com menu navegável, espaço para a repodução de vídeo aula.
+[Projeto 3: Página de Curso de Japonês](https://github.com/Gesabella/curso-Japones) – (EM BREVE) Magina com menu navegável, espaço para a repodução de vídeo aula.
  
 
 ---
