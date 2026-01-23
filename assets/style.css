@@ -23,9 +23,7 @@ body {
     background-color: var(--black);
 }
 
-
 section {
-    /* border: solid red; */
     padding: 3rem 2rem;
     margin: 0 auto;
 }
@@ -42,7 +40,6 @@ header {
 }
 
 .header section {
-    /* border: solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,30 +47,61 @@ header {
     padding-bottom: 1rem;
 }
 
-.navbar {
-    /* border: solid red; */
-    margin-right: 100px;
-}
-
-.navbar a {
-    /* border: solid red; */
-    margin: 0 3rem;
-    font-size: 1.5rem;
-    transition: 0.5s;
+.hamburguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
     cursor: pointer;
 }
 
-.navbar a:hover {
+.hamburguer::before,
+.hamburguer::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px;
+    padding-inline: 20px;
+}
+
+.nav-list a:hover {
     color: var(--turquesa);
     border-bottom: solid 0.1rem var(--turquesa);
-    font-size: 1.6rem;
+    transition: 2s;
 }
 
 .logo img {
-    /* border: solid red; */
     margin-left: 50px;
     max-height: 80px;
 }
+
 
 .btn {
     background: var(--white);
@@ -90,6 +118,7 @@ header {
 
 .btn:hover {
     background-color: var(--turquesa);
+    font-size: 1.3rem;
 }
 
 .home-container {
@@ -142,11 +171,9 @@ header {
     /* border: solid 2px rgb(254, 3, 3); */
     justify-content: center;
     align-items: center;
-
 }
 
 .tecnologies-container {
-    /* border: solid 2px rgb(32, 3, 254); */
     max-width: 600px;
     margin-inline: auto;
     display: flex;
@@ -178,7 +205,6 @@ header {
     gap: 10px;
 }
 
-
 @keyframes scrollinfinito {
     to {
         translate: calc(-50% - 5px);
@@ -193,7 +219,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* border: solid red; */
 }
 
 /* section.paralax:nth-last-of-type(2) {
@@ -205,7 +230,6 @@ section.paralax:nth-last-of-type(3) {
 } */
 
 .proj-title {
-    /* border: solid 2px green; */
     height: auto;
     text-align: center;
     line-height: 2;
@@ -221,7 +245,6 @@ section.paralax:nth-last-of-type(3) {
 }
 
 .proj-cards {
-    /* border: solid red 2px; */
     max-width: 100%;
     min-height: 100vh;
     align-items: center;
@@ -249,14 +272,12 @@ section.paralax:nth-last-of-type(3) {
     /* border: solid 2px green; */
     transition: 0.5s;
     margin-top: 10%;
-
 }
 
 .card-img img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
-
 }
 
 .card-txt {
@@ -294,10 +315,6 @@ section.paralax:nth-last-of-type(3) {
     max-width: 300px;
 }
 
-.about {
-    /* border: solid 2px red; */
-}
-
 .about-box {
     border: solid 1px var(--turquesa);
     border-radius: 15px;
@@ -305,11 +322,6 @@ section.paralax:nth-last-of-type(3) {
     grid-template-columns: 3fr 2fr;
     padding: 30px;
     gap: 20px;
-}
-
-.about-txt {
-    /* border: solid 2px red; */
-
 }
 
 .about-txt h3 {
@@ -322,7 +334,6 @@ section.paralax:nth-last-of-type(3) {
 }
 
 .about-img video {
-    /* border: solid 2px red; */
     max-width: 100%;
 
 }
@@ -347,7 +358,6 @@ footer .social {
 }
 
 footer div {
-    /* border: solid 2px rgb(0, 72, 255); */
     text-align: center;
     display: grid;
     justify-content: space-around;
@@ -386,10 +396,7 @@ transition: 0.5s;
             grid-template-columns: 1fr;
             text-align: center;
             margin-top: 80px;
-
         }
-
-        .home {}
 
         section .content {
             background-color: #0000007e;
@@ -399,19 +406,95 @@ transition: 0.5s;
             margin-bottom: 20px;
         }
 
-    }
+        .about-box {
+            grid-template-columns: 1fr;
+            text-align: center;
+            /* flex-direction: column-reverse; */
+        }
 
-    .about-box {
-        grid-template-columns: 1fr;
-        text-align: center;
-        /* flex-direction: column-reverse; */
-    }
+        .about-txt {
+            text-align: left;
+        }
 
-    .about-txt {
-        text-align: left;
-    }
+        .about-img video {
+            max-width: 80%;
+        }
 
-    /* .about-img {
-            max-width: 1fr;
-        } */
-}
+        /* ---------------------------------------------------------------------- */
+        @media screen and (max-width: 750px) {
+            .hamburguer {
+                display: block;
+                z-index: 1;
+            }
+
+            .nav-list {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                background: linear-gradient(#000000, #010101dc);
+                clip-path: circle(100px at 90% -15%);
+                transition: 1s ease-out;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                gap: 0;
+                pointer-events: none;
+            }
+
+            .navbar .nav-action {
+                clip-path: circle(100px at 90% -15%);
+                pointer-events: all;
+            }
+
+            .nav-list a {
+                font-size: 24px;
+                opacity: 0;
+            }
+
+            .nav-list li:nth-child(1) a {
+                transition: 0.5s 0.2s;
+            }
+
+            .nav-list li:nth-child(2) a {
+                transition: 0.5s 0.4s;
+            }
+
+            .nav-list li:nth-child(3) a {
+                transition: 0.5s 0.6s;
+            }
+
+            .nav.active .nav-list {
+                clip-path: circle(1500px at 90% -50%);
+                pointer-events: all;
+            }
+
+            .nav.active .nav-list a {
+                opacity: 1;
+            }
+
+            .nav.active .hamburguer {
+                position: fixed;
+                top: 26px;
+                right: 16px;
+                border-top-color: transparent;
+            }
+
+            .nav.active .hamburguer::before {
+                transform: rotate(135deg);
+            }
+
+            .nav.active .hamburguer::after {
+                transform: rotate(-135deg);
+                top: -7px;
+            }
+
+            .tecnologies-container {
+                max-width: 100%;
+            }
+
+            .about-img video {
+                max-width: 100%;
+            }
+        }

@@ -25,21 +25,25 @@
             background-image: url(./assets/img/gradient-png.webp);
         }
     </style>
+    <script defer src="assets/action.js">
+
+    </script>
 </head>
 
 <body>
     <header class="header">
-        <section>
+        <nav class="nav">
             <a class="logo" href="index.html">
                 <img src="assets/img/logo-gm-removebg-preview.png" alt="logo principal da página">
             </a>
-            <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#proj-container">Projetos</a>
-                <a href="#about">Sobre</a>
-                <a href="#social">Contato</a>
-            </nav>
-        </section>
+            <button class="hamburguer"></button>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#proj-container">Projetos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#social">Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="home-container">
         <section id="home">
@@ -123,111 +127,103 @@
                             target="_blank">Ver Código</a>
                     </div>
                 </div>
-        </div>
-        <div class="cards">
-            <div class="card-img">
-                <img src="assets/img/GnaProgramacao.png" alt="">
-            </div>
-            <div class="card-txt">
-                <h5>Garotas na Programação</h5>
-                <p>Esse é o 3º que fiz, esse projeto estava esquecido, mas relevante pois foi nele que criei o primeiro
-                    menu responsivo e formulário, que são partes relevantes do estudo. </p>
-                <a class="btn" href="https://gesabella.github.io/garotas-na-programacao/" target="_blank">Ver
-                    Projeto</a><a class="btn" href="https://github.com/Gesabella/garotas-na-programacao"
-                    target="_blank">Ver
-                    Código</a>
-            </div>
-        </div>
-        <div class="cards">
-            <div class="card-img">
-                <img src="assets/img/agencia.png" alt="">
-            </div>
-            <div class="card-txt">
-                <h5>Em breve</h5>
-                <p> Página Agencia de Marketing com menu, formulário responsivo. <br><b style="font-size: larger;">
-                        Atenção, em
-                        construção!</b><br></p>
-                <a class="btn" href="#" target="_blank">Ver Projeto</a><a class="btn"
-                    href="https://github.com/Gesabella/agencia" target="_blank">Ver Código</a>
-            </div>
-        </div>
-        <div class="cards">
-            <div class="card-img">
-                <img src="assets/img/curso.png" alt="">
-            </div>
-            <div class="card-txt">
-                <h5>Em breve</h5>
-                <p>Pagina Curso de Japonês com menu e espaço para aulas
-                    com texto e video <br><b style=" font-size: larger;"> Atenção, em
-                        construção!</b> </p>
-                <a class="btn" href="#" target="_blank">Ver
-                    Projeto</a><a class="btn" href="https://github.com/Gesabella/curso-Japones" target="_blank">Ver
-                    Código</a>
-            </div>
-
-            <!-- <div class="cards">
+                <div class="cards">
                     <div class="card-img">
-                        <img src="assets/img/teclado.jpg" alt="">
+                        <img src="assets/img/GnaProgramacao.png" alt="">
+                    </div>
+                    <div class="card-txt">
+                        <h5>Garotas na Programação</h5>
+                        <p>Esse é o 3º que fiz, esse projeto estava esquecido, mas relevante pois foi nele que criei o
+                            primeiro
+                            menu responsivo e formulário, que são partes relevantes do estudo. </p>
+                        <a class="btn" href="https://gesabella.github.io/garotas-na-programacao/" target="_blank">Ver
+                            Projeto</a><a class="btn" href="https://github.com/Gesabella/garotas-na-programacao"
+                            target="_blank">Ver
+                            Código</a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-img">
+                        <img src="assets/img/agencia.png" alt="">
                     </div>
                     <div class="card-txt">
                         <h5>Em breve</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur unpariatur
-                            deleniti ducimus voluptates officia a cum, aliquid ipsam veniam eius repellat,
-                        </p>
-                        <a class="btn" href="#" target="_blank">Ver Projeto</a><a class="btn" href="#" target="_blank">Ver Código</a>
+                        <p> Página Agencia de Marketing com menu, formulário responsivo. <br><b
+                                style="font-size: larger;">
+                                Atenção, em
+                                construção!</b><br></p>
+                        <a class="btn" href="#" target="_blank">Ver Projeto</a><a class="btn"
+                            href="https://github.com/Gesabella/agencia" target="_blank">Ver Código</a>
                     </div>
-                </div> -->
+                </div>
+                <div class="cards">
+                    <div class="card-img">
+                        <img src="assets/img/curso.png" alt="">
+                    </div>
+                    <div class="card-txt">
+                        <h5>Em breve</h5>
+                        <p>Pagina Curso de Japonês com menu e espaço para aulas
+                            com texto e video <br><b style=" font-size: larger;"> Atenção, em
+                                construção!</b> </p>
+                        <a class="btn" href="#" target="_blank">Ver
+                            Projeto</a><a class="btn" href="https://github.com/Gesabella/curso-Japones"
+                            target="_blank">Ver
+                            Código</a>
+                    </div>
+                </div>
             </section>
-        </Div>
-    </div>
-    <section id="about" class="paralax"></section>
-    <section class="about">
-        <div class="about-box">
-            <div class="about-txt">
-                <h3>&nbsp;&nbsp;Quem sou...</h3>
-                <p>&nbsp;&nbsp;Olá... <br> &nbsp;&nbsp;Gesabella é o meu nome! <br> &nbsp;&nbsp; Amo tecnologia desde
-                    sempre, mas
-                    por não ter
-                    facilidade de acesso antes, sempre adimirava de "longe", como uma bela pintura.<br><br>
-                    &nbsp;&nbsp;Atualmente o acesso a informação está muito mais fácil e proveitando essa oportunidade
-                    sigo
-                    aprendendo um pouco mais a cada dia.
-                    De maneira autodidata busquei os primeiros passos para saber se iria me adaptar, mas isso só
-                    despertou ainda mais a minha curiosidade <br><br> &nbsp;&nbsp;Iniciei o ensino do superior em
-                    Ciencias da
-                    Computação, assim poderei
-                    aprofundar
-                    mais
-                    esse conhecimento e quem sabe sanar minha crescente curiosidade. </p>
-            </div>
-            <div>
-                <div class="about-img">
-                    <video autoplay muted loop src="./assets/video/inicio-da-rotina.mp4"></video>
+        </div>
+
+        <section id="about" class="paralax"></section>
+        <section class="about">
+            <div class="about-box">
+                <div class="about-txt">
+                    <h3>&nbsp;&nbsp;Quem sou...</h3>
+                    <p>&nbsp;&nbsp;Olá... <br> &nbsp;&nbsp;Gesabella é o meu nome! <br> &nbsp;&nbsp; Amo tecnologia
+                        desde
+                        sempre, mas
+                        por não ter
+                        facilidade de acesso antes, sempre adimirava de "longe", como uma bela pintura.<br><br>
+                        &nbsp;&nbsp;Atualmente o acesso a informação está muito mais fácil e proveitando essa
+                        oportunidade
+                        sigo
+                        aprendendo um pouco mais a cada dia.
+                        De maneira autodidata busquei os primeiros passos para saber se iria me adaptar, mas isso só
+                        despertou ainda mais a minha curiosidade <br><br> &nbsp;&nbsp;Iniciei o ensino do superior em
+                        Ciencias da
+                        Computação, assim poderei
+                        aprofundar
+                        mais
+                        esse conhecimento e quem sabe sanar minha crescente curiosidade. </p>
+                </div>
+                <div>
+                    <div class="about-img">
+                        <video autoplay muted loop src="./assets/video/inicio-da-rotina.mp4"></video>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer id="social">
-        <div class="social">
-            <!-- <div><img src="assets/img/icon-instagram.png" alt=""><a href="#">instagram</a></div>
+        </section>
+        <footer id="social">
+            <div class="social">
+                <!-- <div><img src="assets/img/icon-instagram.png" alt=""><a href="#">instagram</a></div>
             <div><img src="assets/img/icon-youtube.png" alt=""><a href="#">YouTube</a></div> -->
-            <div>
-                <a href="https://github.com/Gesabella" target="_blank"><img src="assets/img/icon-git.png"
-                        alt="">GitHub</a>
+                <div>
+                    <a href="https://github.com/Gesabella" target="_blank"><img src="assets/img/icon-git.png"
+                            alt="">GitHub</a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/gesabellamonteiro/" target="_blank"><img
+                            src="assets/img/icons8-linkedin-50.png" alt="">Linkedin</a>
+                </div>
+                <div>
+                    <a href="https://drive.google.com/file/d/11kT8uVbOWUR7d3DNZxjLjd3GWeI_swzH/view?usp=sharing"
+                        target="_blank"><img src="assets/img/icons8-currículo-50.png" alt="">Currículo</a>
+                </div>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/gesabellamonteiro/" target="_blank"><img
-                        src="assets/img/icons8-linkedin-50.png" alt="">Linkedin</a>
+            <div class="footer-txt">
+                <p>Gesabella Monteiro™ . Todos os direitos reservados</p><br><br>
             </div>
-            <div>
-                <a href="https://drive.google.com/file/d/11kT8uVbOWUR7d3DNZxjLjd3GWeI_swzH/view?usp=sharing"
-                    target="_blank"><img src="assets/img/icons8-currículo-50.png" alt="">Currículo</a>
-            </div>
-        </div>
-        <div class="footer-txt">
-            <p>Gesabella Monteiro™ . Todos os direitos reservados</p><br><br>
-        </div>
-    </footer>
+        </footer>
 </body>
 
 </html>
